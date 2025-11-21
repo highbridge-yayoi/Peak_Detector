@@ -20,5 +20,13 @@ for i in range(1, len(value) -1):
     #大小を確認
     if now_value > pre_value and now_value > next_value:
         local_max.append(now_value)
-    else now_value < pre_value and now_value < next_value:
+
+    if now_value < pre_value and now_value < next_value:
         local_min.append(now_value)
+        
+for x in local_max
+    print(x)
+
+for x in local_min
+    print(x)
+    
