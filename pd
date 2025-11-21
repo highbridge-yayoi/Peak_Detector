@@ -7,12 +7,12 @@ def main():
     value = []
     for line in sys.stdin:
         line = line.strip()
-        if not line:  # 空行はスキップ
+        if not line:
             continue
         try:
             value.append(int(line))
         except ValueError:
-            continue # 数字以外もスキップ
+            continue
 
     print(f"--- 読み込み完了: {len(value)} 個のデータ ---")
 
