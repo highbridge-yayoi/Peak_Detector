@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+
+import sys
+
+# 入力
+def main():
+    value = []
+    for line in sys.stdin:
+        line = line.strip()
