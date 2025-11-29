@@ -14,7 +14,7 @@ def main():
         except ValueError:
             continue
 
-    print(f"--- 読み込み完了: {len(value)} 個のデータ ---")
+    # print(f"--- 読み込み完了: {len(value)} 個のデータ ---")
 
     local_max = []
     local_min = []
@@ -32,8 +32,12 @@ def main():
         if now_value < pre_value and now_value < next_value:
             local_min.append(now_value)
 
+    print()
+
     for x in local_max:
         print(x)
+    
+    print()
 
     for x in local_min:
         print(x)
