@@ -20,7 +20,7 @@ expected_output="5
 2"
 
 # pdを実行
-output=$(./pd < test_input.txt)
+output=$(python3 ./pd < test_input.txt)
 
 # 出力
 echo "Output:"
