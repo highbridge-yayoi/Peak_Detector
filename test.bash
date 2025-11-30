@@ -13,7 +13,7 @@ EOF
 
 # 期待される出力
 # Maxima: 5, 8
-# Minima: 2
+# Minima: 2 
 expected_output="5
 8
 
