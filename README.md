@@ -56,4 +56,4 @@
 ## 動作環境
 
 - Python 3.13.5
-- Linux
+- Ubuntu 22.04.5 LTS
