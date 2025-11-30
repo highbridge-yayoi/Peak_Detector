@@ -20,10 +20,17 @@ expected_output="5
 2"
 
 # pdを実行
-output = $(./pd < test_input.txt)
+output=$(./pd < test_input.txt)
 
 # 出力
 echo "Output:"
 echo "$output"
 echo "Expected:"
 echo "$expected_output"
+
+# 結果
+if [ "$output" = "$expected_output" ]; then
+    echo "Test passed"
+else
+    echo "Test failed"
+fi
