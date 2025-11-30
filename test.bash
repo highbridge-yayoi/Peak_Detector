@@ -2,7 +2,7 @@
 # SPDX-FileCopyrightText: 2025 highbrige-yayoi <hainu738@gmail.com>
 # SPDX-License-Identifier: BSD-3-Clause
 
-# テスト用の入力ファイルを作成
+# テスト用に入力ファイルを作成
 cat << EOF > test_input.txt
 1
 5
@@ -18,3 +18,12 @@ expected_output="5
 8
 
 2"
+
+# pdを実行
+output = $(./pd < test_input.txt)
+
+# 出力
+echo "Output:"
+echo "$output"
+echo "Expected:"
+echo "$expected_output"
