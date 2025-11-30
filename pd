@@ -34,7 +34,6 @@ def main():
         if now_value < pre_value and now_value < next_value:
             local_min.append(now_value)
 
-    print()
 
     for x in local_max:
         print(x)
