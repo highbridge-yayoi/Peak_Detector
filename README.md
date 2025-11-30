@@ -1,5 +1,8 @@
 # Peak Detector
 
+![Test Status](https://github.com/highbridge-yayoi/Peak_Detector/actions/workflows/test.yml/badge.svg)
+
+
 標準入力から数値のリストを読み込み、極大値（山）と極小値（谷）を検出して出力するPythonスクリプトです。
 
 ## 動作環境
@@ -37,6 +40,6 @@
 前半が極大値、空行を挟んで後半が極小値です。
 
 ## 仕様
-- **山 (Local Maxima)**: 前後の値よりも大きい値。
-- **谷 (Local Minima)**: 前後の値よりも小さい値。
+- **山 (local_max)**: 前後の値よりも大きい値。
+- **谷 (local_min)**: 前後の値よりも小さい値。
 - 空行や数値以外の行は無視されます。
