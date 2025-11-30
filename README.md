@@ -5,6 +5,14 @@
 
 標準入力から数値のリストを読み込み，極大値（山）と極小値（谷）を検出して出力するPythonスクリプトです．
 
+## 使用方法
+```
+$ git clone git@github.com:highbridge-yayoi/Peak_Detector.git
+$ cd Peak_Detector
+$ chmod +x pd
+$ ./pd
+```
+
 ## 使い方
 
 ```bash
