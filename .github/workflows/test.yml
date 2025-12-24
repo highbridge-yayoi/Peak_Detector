@@ -14,4 +14,3 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: All test
       run: bash -xv ./test.bash
-      run: cat /etc/os-release
