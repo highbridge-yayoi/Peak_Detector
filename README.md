@@ -10,11 +10,14 @@
 $ git clone git@github.com:highbridge-yayoi/Peak_Detector.git
 $ cd Peak_Detector
 $ chmod +x pd
-$ ./pd
+実行時は、数値のリストを標準入力に渡してください。
 ```
-
-実行後，数値を1行に1つずつ入力してください．
-入力が終わったら `Ctrl+D` (Linux/Mac) または `Ctrl+Z` (Windows) を押して入力を終了します．
+$ cat input.txt | ./pd
+```
+または
+```
+$ echo -e "1\n5\n8" | ./pd
+```
 
 ### 入力例
 ```
