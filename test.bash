@@ -21,6 +21,12 @@ expected_output="5
 
 # pdを実行
 output=$(python3 ./pd < test_input.txt)
+ret=$?
+
+if [ $ret -ne 0 ]; then
+    echo "Error: pd failed with exit code $ret"
+    exit 1
+fi
 
 # 出力
 echo "Output:"
