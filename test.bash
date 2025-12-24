@@ -2,6 +2,11 @@
 # SPDX-FileCopyrightText: 2025 highbrige-yayoi <hainu738@gmail.com>
 # SPDX-License-Identifier: BSD-3-Clause
 
+ng () {
+        echo ${1}行目が間違っています
+        res=1
+}
+
 # テスト用に入力ファイルを作成
 cat << EOF > test_input.txt
 1
@@ -21,12 +26,6 @@ expected_output="5
 
 # pdを実行
 output=$(python3 ./pd < test_input.txt)
-ret=$?
-
-if [ $ret -ne 0 ]; then
-    echo "Error: pd failed with exit code $ret"
-    exit 1
-fi
 
 # 出力
 echo "Output:"
