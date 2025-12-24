@@ -17,8 +17,7 @@ $ cat input.txt | ./pd
 ```
 または
 ```
-$ ./pd #入力後，下記のhttps://github.com/highbridge-yayoi/Peak_Detector?tab=readme-ov-file#%E5%85%A5%E5%8A%9B%E4%BE%8B
-のように入力してください
+$ ./pd ＃入力後，下記の入力例のように入力してください
 ```
 
 ### 入力例
