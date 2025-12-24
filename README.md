@@ -61,8 +61,9 @@ $ ./pd
 
 - Python
     - テスト済みバージョン：3.8 ~ 3.12
+- Ubuntu 22.04 (GitHub Actions ubuntu-latest)
 
-## テスト環境
+## 動作環境
 
 - Python 3.13.5
 - Ubuntu 22.04.5 LTS
