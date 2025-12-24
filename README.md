@@ -60,7 +60,7 @@ $ ./pd
 
 - Python
     - テスト済みバージョン：3.8 ~ 3.12
-- Ubuntu 22.04 (GitHub Actions ubuntu-latest)
+- Ubuntu 22.04.4 LTS
 
 ## 動作環境
 
