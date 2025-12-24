@@ -11,7 +11,7 @@ $ git clone git@github.com:highbridge-yayoi/Peak_Detector.git
 $ cd Peak_Detector
 $ chmod +x pd
 ```
-実行時は、数値のリストを標準入力に渡してください。
+実行時は，数値のリストを標準入力に渡してください．
 ```
 $ cat input.txt | ./pd
 ```
